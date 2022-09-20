@@ -55,6 +55,11 @@ export default {};
 section {
   background-color: #3dbeff;
 
+  p {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
   button {
     padding: 20px 30px;
     background: #ff457e;
@@ -98,22 +103,27 @@ section {
   }
 
   .cor-1 {
+    color: #142721;
     background-color: #89e5d2;
     border: 3px solid #89e5d2;
   }
   .cor-2 {
+    color: #40111f;
     background-color: #ff457e;
     border: 3px solid #ff457e;
   }
   .cor-3 {
+    color: #352d00;
     background-color: #fed501;
     border: 3px solid #fed501;
   }
   .cor-4 {
+    color: #3d271b;
     background-color: #ffa370;
     border: 3px solid #ffa370;
   }
   .cor-5 {
+    color: #1b1526;
     background-color: #b38fff;
     border: 3px solid #b38fff;
   }
