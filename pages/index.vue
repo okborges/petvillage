@@ -1,12 +1,15 @@
 <template>
-  <div class="pb-20">
+  <div>
     <TheHeader />
     <main>
       <SectionUm />
       <SectionDois />
       <DermaAlergia />
       <BanhoTosa />
+      <HotelSection />
+      <CrecheSection />
     </main>
+    <TheFooter />
   </div>
 </template>
 
@@ -16,9 +19,21 @@ import TheHeader from '~/components/TheHeader.vue';
 import SectionDois from '~/components/SectionDois.vue';
 import DermaAlergia from '~/components/DermaAlergia.vue';
 import BanhoTosa from '~/components/BanhoTosa.vue';
+import HotelSection from '~/components/HotelSection.vue';
+import CrecheSection from '~/components/CrecheSection.vue';
+import TheFooter from '~/components/TheFooter.vue';
 
 export default {
   name: 'IndexPage',
-  components: { TheHeader, SectionUm, SectionDois, DermaAlergia, BanhoTosa },
+  components: {
+    TheHeader,
+    SectionUm,
+    SectionDois,
+    DermaAlergia,
+    BanhoTosa,
+    HotelSection,
+    CrecheSection,
+    TheFooter,
+  },
 };
 </script>

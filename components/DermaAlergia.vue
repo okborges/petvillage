@@ -2,7 +2,7 @@
   <section>
     <div class="container mx-auto px-6 grid lg:grid-cols-2">
       <div class="verde pt-16 grid justify-center">
-        <img class="" src="~/assets/img/derma.png" alt="" />
+        <img src="~/assets/img/derma.png" alt="" />
         <button class="justify-self-center mb-6">
           <a href="https://wa.me/5511981287333" target="_blank"
             >Marcar consulta</a
