@@ -1,9 +1,9 @@
 <template>
-  <section>
+  <section class="pb-10 lg:pb-0">
     <div class="container mx-auto grid lg:grid-cols-2 items-center">
       <div class="flex flex-col items-center">
         <img
-          class="mb-6 rounded-lg"
+          class="mb-20 rounded-lg"
           src="~/assets/img/logo.jpg"
           alt="logotipo"
           width="460"
@@ -14,8 +14,8 @@
         </button>
       </div>
 
-      <div class="patinhas">
-        <img src="~/assets/img/dogs-inicial.png" alt="" />
+      <div>
+        <img src="~/assets/img/2main.png" alt="" />
       </div>
     </div>
     <div class="nav-cards container mx-auto gap-10">
@@ -70,12 +70,6 @@ section {
   button:hover {
     border: 3px solid #cc3765;
     transition: 0.2s;
-  }
-
-  .patinhas {
-    background-image: url('~/assets/img/teste.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
   }
 
   .nav-cards {

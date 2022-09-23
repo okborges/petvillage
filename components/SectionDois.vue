@@ -1,11 +1,12 @@
 <template>
-  <section class="mt-32">
-    <div class="container mx-auto grid lg:grid-cols-2 gap-10">
+  <section class="mt-12 mb-16 lg:mt-32">
+    <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-10">
       <div>
         <h2>Nossos Princípios e valores</h2>
         <p>
           O Pet Village segue fortes princípios desde sua fundação em 2010. O
-          tratamento familiar onde o seu Pet é o nosso Pet é a base do nosso
+          <span>tratamento familiar</span>
+          onde o <span>seu Pet é o nosso Pet</span> é a base do nosso
           trabalho.<br />
           <br />
           A qualidade, honestidade, ética, transparência e segurança são os
@@ -29,9 +30,9 @@
           Tutores.<br />
           <br />
           Carinho e paciência para cada Cliente é a base do tratamento e dos
-          serviços, pois sabemos que cada um é único e importante. Visite-nos.
+          serviços, pois sabemos que cada um é único e importante.<br />
           <br />
-          Será uma honra receber sua visita!
+          Visite-nos. Será uma honra receber sua visita!
         </p>
       </div>
     </div>
@@ -46,15 +47,23 @@ export default {};
 section {
   h2 {
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     line-height: 3.0625rem;
     padding-bottom: 1.25rem;
+    font-family: 'Fraunces', serif;
+    color: #2b2b2b;
   }
   p {
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 1.6875rem;
     max-width: 570px;
+    font-family: 'Barlow', sans-serif;
+    color: #424242;
+  }
+  span {
+    font-weight: 700;
+    font-family: 'Barlow', sans-serif;
   }
 }
 </style>
