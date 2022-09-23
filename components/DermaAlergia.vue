@@ -3,10 +3,14 @@
     <div class="container mx-auto px-6 grid lg:grid-cols-2">
       <div class="verde pt-16 grid justify-center">
         <img class="" src="~/assets/img/derma.png" alt="" />
-        <button class="justify-self-center mb-6">Marcar consulta</button>
+        <button class="justify-self-center mb-6">
+          <a href="https://wa.me/5511981287333" target="_blank"
+            >Marcar consulta</a
+          >
+        </button>
       </div>
 
-      <div class="direita mt-8 lg:mt-16 lg:ml-20">
+      <div class="direita mb-12 mt-8 lg:mt-16 lg:ml-20">
         <h1 class="mb-5">Dermatologia e Alergologia Veterinária</h1>
         <p class="mb-14">
           A pele é o maior órgão do corpo e as patologias de pele requerem uma
@@ -69,7 +73,7 @@ section {
   }
 
   .direita {
-    max-width: 448px;
+    max-width: 530px;
     h1 {
       font-family: 'Fraunces';
       font-weight: 700;

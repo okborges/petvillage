@@ -10,7 +10,9 @@
           height="306"
         />
         <button class="text-white text-2xl font-semibold">
-          <a href="">ENTRAR EM CONTATO</a>
+          <a href="https://wa.me/5511981287333" target="_blank"
+            >ENTRAR EM CONTATO</a
+          >
         </button>
       </div>
 
