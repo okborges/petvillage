@@ -20,31 +20,32 @@
         <img src="~/assets/img/2main.png" alt="" />
       </div>
     </div>
+
     <div class="nav-cards container mx-auto gap-10">
-      <div class="cards cor-1">
+      <NuxtLink to="#derma" class="cards cor-1">
         <img src="~/assets/icons/derma.svg" alt="" />
         <p>Dermatologia e Alergologia</p>
-      </div>
+      </NuxtLink>
 
-      <div class="cards cor-2">
+      <NuxtLink to="/#banho" class="cards cor-2">
         <img src="~/assets/icons/banho.svg" alt="" />
         <p>Banho e Tosa</p>
-      </div>
+      </NuxtLink>
 
-      <div class="cards cor-3">
+      <NuxtLink to="/#hotel" class="cards cor-3">
         <img src="~/assets/icons/hotel.svg" alt="" />
         <p>Hotel</p>
-      </div>
+      </NuxtLink>
 
-      <div class="cards cor-4">
+      <NuxtLink to="/#creche" class="cards cor-4">
         <img src="~/assets/icons/creche.svg" alt="" />
         <p>Creche</p>
-      </div>
+      </NuxtLink>
 
-      <div class="cards cor-5">
+      <NuxtLink to="/#cursos" class="cards cor-5">
         <img src="~/assets/icons/cursos.svg" alt="" />
         <p>Cursos</p>
-      </div>
+      </NuxtLink>
     </div>
   </section>
 </template>

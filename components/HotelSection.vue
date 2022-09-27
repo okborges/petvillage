@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="hotel">
     <div class="container mx-auto px-6 grid lg:grid-cols-2 items-center">
       <div class="verde pt-16 grid justify-center">
         <img class="" src="~/assets/img/hotel.png" alt="" />

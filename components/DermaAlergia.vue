@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="derma">
     <div class="container mx-auto px-6 grid lg:grid-cols-2">
       <div class="verde pt-16 grid justify-center">
         <img src="~/assets/img/derma.png" alt="" />

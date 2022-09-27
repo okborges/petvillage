@@ -5,11 +5,11 @@
       <ul
         class="flex text-xl font-semibold items-center text-center gap-4 lg:gap-10"
       >
-        <li>Dermatologia e Alergologia</li>
-        <li>Banho e tosa</li>
-        <li>Hotel</li>
-        <li>Creche</li>
-        <li>Cursos</li>
+        <li><NuxtLink to="/#derma">Dermatologia e Alergologia</NuxtLink></li>
+        <li><NuxtLink to="/#banho">Banho e tosa</NuxtLink></li>
+        <li><NuxtLink to="/#hotel">Hotel</NuxtLink></li>
+        <li><NuxtLink to="/#creche">Creche</NuxtLink></li>
+        <li><NuxtLink to="/#cursos">Cursos</NuxtLink></li>
       </ul>
     </nav>
   </header>

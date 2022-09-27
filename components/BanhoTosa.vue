@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="banho">
     <div class="container mx-auto px-6 grid lg:grid-cols-2">
       <div class="direita mb-12 mt-8 lg:mt-16 lg:ml-20">
         <h1 class="mb-5">O melhor para o seu amigo você encontra aqui.</h1>
