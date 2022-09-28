@@ -8,6 +8,7 @@
       <BanhoTosa />
       <HotelSection />
       <CrecheSection />
+      <CursosSection />
     </main>
     <TheFooter />
   </div>
@@ -22,6 +23,7 @@ import BanhoTosa from '~/components/BanhoTosa.vue';
 import HotelSection from '~/components/HotelSection.vue';
 import CrecheSection from '~/components/CrecheSection.vue';
 import TheFooter from '~/components/TheFooter.vue';
+import CursosSection from '~/components/CursosSection.vue';
 
 export default {
   name: 'IndexPage',
@@ -34,6 +36,7 @@ export default {
     HotelSection,
     CrecheSection,
     TheFooter,
+    CursosSection,
   },
 };
 </script>
