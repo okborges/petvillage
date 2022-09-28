@@ -10,7 +10,9 @@
         </button>
       </div>
 
-      <div class="direita mb-12 mt-8 lg:mt-16 lg:ml-20">
+      <div
+        class="direita mb-12 mt-8 order-first lg:order-none lg:mt-16 lg:ml-20"
+      >
         <h1 class="mb-5">Dermatologia e Alergologia Veterinária</h1>
         <p class="mb-14">
           A pele é o maior órgão do corpo e as patologias de pele requerem uma

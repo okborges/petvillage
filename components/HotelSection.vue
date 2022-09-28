@@ -13,7 +13,9 @@
         </button>
       </div>
 
-      <div class="direita mb-12 mt-8 lg:mt-16 lg:ml-20">
+      <div
+        class="direita mb-12 mt-8 order-first lg:order-none lg:mt-16 lg:ml-20"
+      >
         <h1 class="mb-5">Hotel e Bem estar do seu melhor amigo.</h1>
         <p class="mb-14">
           O Seu Pet é o nosso Pet - esse é um princípio de conduta que orienta
