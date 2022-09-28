@@ -9,6 +9,7 @@
       <HotelSection />
       <CrecheSection />
       <CursosSection />
+      <FotosSection />
     </main>
     <TheFooter />
   </div>
@@ -24,6 +25,7 @@ import HotelSection from '~/components/HotelSection.vue';
 import CrecheSection from '~/components/CrecheSection.vue';
 import TheFooter from '~/components/TheFooter.vue';
 import CursosSection from '~/components/CursosSection.vue';
+import FotosSection from '~/components/FotosSection.vue';
 
 export default {
   name: 'IndexPage',
@@ -37,6 +39,7 @@ export default {
     CrecheSection,
     TheFooter,
     CursosSection,
+    FotosSection,
   },
 };
 </script>
