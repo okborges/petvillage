@@ -69,10 +69,11 @@ section {
     box-shadow: 4px 6px 10px rgba(7, 21, 28, 0.2);
     border-radius: 37.3333px;
     border: 3px solid #ff457e;
+    transition: 0.3s;
   }
   button:hover {
     border: 3px solid #cc3765;
-    transition: 0.2s;
+    transform: scale(1.02);
   }
 
   .nav-cards {
@@ -93,6 +94,7 @@ section {
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.3s;
 
     img {
       padding-bottom: 0.3125rem;
@@ -103,47 +105,52 @@ section {
     color: #142721;
     background-color: #89e5d2;
     border: 3px solid #89e5d2;
+    transition: 0.3s;
   }
   .cor-2 {
     color: #40111f;
     background-color: #ff457e;
     border: 3px solid #ff457e;
+    transition: 0.3s;
   }
   .cor-3 {
     color: #352d00;
     background-color: #fed501;
     border: 3px solid #fed501;
+    transition: 0.3s;
   }
   .cor-4 {
     color: #3d271b;
     background-color: #ffa370;
     border: 3px solid #ffa370;
+    transition: 0.3s;
   }
   .cor-5 {
     color: #1b1526;
     background-color: #b38fff;
     border: 3px solid #b38fff;
+    transition: 0.3s;
   }
 
   .cor-1:hover {
     border: 3px solid #142721;
-    transition: 0.3ss;
+    transform: scale(1.02);
   }
   .cor-2:hover {
     border: 3px solid #40111f;
-    transition: 0.3ss;
+    transform: scale(1.02);
   }
   .cor-3:hover {
     border: 3px solid #352d00;
-    transition: 0.3ss;
+    transform: scale(1.02);
   }
   .cor-4:hover {
     border: 3px solid #3d271b;
-    transition: 0.3ss;
+    transform: scale(1.02);
   }
   .cor-5:hover {
     border: 3px solid #1b1526;
-    transition: 0.3ss;
+    transform: scale(1.02);
   }
 }
 

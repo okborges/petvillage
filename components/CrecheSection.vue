@@ -3,7 +3,7 @@
     <div class="container mx-auto px-6 grid lg:grid-cols-2 items-center">
       <div class="direita mb-12 mt-8 lg:mt-16 lg:ml-20">
         <h1 class="mb-5">Creche</h1>
-        <p class="mb-14">
+        <p class="mb-0 lg:mb-14">
           As atividades são dirigidas para a socialização com outros Pets,
           liberdade para brincar e correr, saúde mental, alimentação e cuidados,
           conforme estão acostumados em casa, sempre respeitando a
@@ -47,10 +47,11 @@ section {
       color: #ffffff;
       width: max-content;
       height: fit-content;
+      transition: 0.2s;
     }
     button:hover {
       border: 0.25rem solid #a95b2f;
-      transition: 0.2s;
+      transform: scale(1.02);
     }
     p {
       font-family: 'Barlow';

@@ -3,7 +3,7 @@
     <div class="container mx-auto px-6 grid lg:grid-cols-2 items-center">
       <div class="verde pt-16 grid justify-center">
         <img class="" src="~/assets/img/hotel.png" alt="" />
-        <p class="text-center py-10">
+        <p class="text-center justify-self-center py-10 px-2">
           Nossa experiência de mais de 12 anos, com monitores orientados a
           tratar nossos clientes como parte da família, garantem tratamento
           individualizado e focado em suas necessidades específicas.
@@ -17,7 +17,7 @@
         class="direita mb-12 mt-8 order-first lg:order-none lg:mt-16 lg:ml-20"
       >
         <h1 class="mb-5">Hotel e Bem estar do seu melhor amigo.</h1>
-        <p class="mb-14">
+        <p class="mb-0 lg:mb-14">
           O Seu Pet é o nosso Pet - esse é um princípio de conduta que orienta
           nosso trabalho e nos dá satisfação ao garantir que os Pets a nós
           confiados são tratados com carinho, atenção, respeito, segurança e
@@ -47,10 +47,11 @@ section {
       color: #ffffff;
       width: max-content;
       height: fit-content;
+      transition: 0.2s;
     }
     button:hover {
       border: 0.25rem solid #655712;
-      transition: 0.2s;
+      transform: scale(1.02);
     }
     img {
       justify-self: center;

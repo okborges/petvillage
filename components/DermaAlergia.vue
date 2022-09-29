@@ -14,7 +14,7 @@
         class="direita mb-12 mt-8 order-first lg:order-none lg:mt-16 lg:ml-20"
       >
         <h1 class="mb-5">Dermatologia e Alergologia Veterinária</h1>
-        <p class="mb-14">
+        <p class="mb-10 lg:mb-14">
           A pele é o maior órgão do corpo e as patologias de pele requerem uma
           atenção especial e especializada , quadros alérgicos são problemas que
           afetam uma grande parte dos cães nos dias atuais por isso é tão
@@ -22,7 +22,7 @@
           diagnosticar e controlar está e outras patologias da pele.
         </p>
 
-        <div class="tratamentos grid lg:grid-cols-2 gap-14">
+        <div class="tratamentos grid lg:grid-cols-2 gap-8 lg:gap-14">
           <div>
             <img class="mb-2" src="~/assets/icons/cruz-medica.svg" alt="" />
             <h2 class="mb-3">Realizamos exames complementares</h2>
@@ -67,10 +67,11 @@ section {
       color: #ffffff;
       width: max-content;
       height: fit-content;
+      transition: 0.2s;
     }
     button:hover {
       border: 0.25rem solid #126554;
-      transition: 0.2s;
+      transform: scale(1.02);
     }
   }
 

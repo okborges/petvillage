@@ -3,7 +3,7 @@
     <div class="container mx-auto px-6 grid lg:grid-cols-2">
       <div class="direita mb-12 mt-8 lg:mt-16 lg:ml-20">
         <h1 class="mb-5">O melhor para o seu amigo você encontra aqui.</h1>
-        <p class="mb-14">
+        <p class="mb-10 lg:mb-14">
           Banho e tosa realizados com muito carinho, cuidado e amor por ótimos
           profissionais, com formação, experiência e capacitados para realização
           dos serviços com segurança e excelência.
@@ -72,10 +72,11 @@ section {
       color: #ffffff;
       width: max-content;
       height: fit-content;
+      transition: 0.2s;
     }
     button:hover {
       border: 0.25rem solid #7f223f;
-      transition: 0.2s;
+      transform: scale(1.02);
     }
     p {
       font-family: 'Barlow';

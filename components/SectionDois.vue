@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-12 mb-16 lg:mt-32">
+  <section class="mt-12 lg:mb-12 lg:mt-32">
     <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-10">
       <div>
         <h2>Nossos Princípios e valores</h2>
