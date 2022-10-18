@@ -16,7 +16,7 @@
         <h1 class="mb-5">Dermatologia e Alergologia Veterinária</h1>
         <p class="mb-10 lg:mb-14">
           A pele é o maior órgão do corpo e as patologias de pele requerem uma
-          atenção especial e especializada , quadros alérgicos são problemas que
+          atenção especial e especializada, quadros alérgicos são problemas que
           afetam uma grande parte dos cães nos dias atuais por isso é tão
           importante procurar um especialista qualificado para ajudar a
           diagnosticar e controlar está e outras patologias da pele.
@@ -27,7 +27,7 @@
             <img class="mb-2" src="~/assets/icons/cruz-medica.svg" alt="" />
             <h2 class="mb-3">Realizamos exames complementares</h2>
             <ul>
-              <li>Citologia raspado de pele</li>
+              <li>Citologia e raspado de pele</li>
               <li>Cultura fúngica</li>
               <li>Lâmpada de Wood</li>
               <li>Tricograma</li>
@@ -38,8 +38,8 @@
             <img class="mb-2" src="~/assets/icons/pills.svg" alt="" />
             <h2 class="mb-3">Testes alérgicos</h2>
             <ul>
-              <li>Prick test para alergenos ambientais e alimentares</li>
-              <li>Imunoterapia alergeno especifica.</li>
+              <li>Prick test para alérgenos ambientais e alimentares</li>
+              <li>Imunoterapia alérgeno especifica.</li>
             </ul>
           </div>
         </div>

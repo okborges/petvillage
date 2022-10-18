@@ -5,7 +5,7 @@
         <h1>contato</h1>
         <p>R. Cel. Agenor de Camargo, 57 - Centro, Santo André</p>
         <p>(11) 4427-8776</p>
-        <p>(11) 981287333</p>
+        <p>(11) 9 8128-7333</p>
       </div>
 
       <div>

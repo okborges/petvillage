@@ -58,7 +58,7 @@
 
         <div class="cards cor-4 grid justify-center">
           <h2>Módulo - 4 Banho e Tosa + especializaçao em tosa bebe</h2>
-          <h3>R$500,00</h3>
+          <h3>R$1.000,00</h3>
           <ul>
             <li>Banho ( passo a passo)</li>
             <li>Escovação de pelos e Dentes</li>
