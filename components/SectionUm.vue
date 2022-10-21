@@ -4,7 +4,7 @@
       <div class="flex flex-col items-center">
         <img
           class="mb-20 rounded-lg"
-          src="~/assets/img/logo.jpg"
+          src="~/assets/img/logo_novo.png"
           alt="logotipo"
           width="460"
           height="306"

@@ -58,7 +58,7 @@
 
         <div class="cards cor-4 grid justify-center">
           <h2>Módulo - 4 Banho e Tosa + especializaçao em tosa bebe</h2>
-          <h3>R$1.000,00</h3>
+          <h3>R$1.300,00</h3>
           <ul>
             <li>Banho ( passo a passo)</li>
             <li>Escovação de pelos e Dentes</li>
@@ -73,7 +73,9 @@
             <li>Gato</li>
             <li>9 aulas</li>
           </ul>
-          <!-- <p>Ou 950,00 com vc trazendo o cão modelo para aula de tosa bebe</p> -->
+          <p>
+            Ou R$1.250,00 com vc trazendo o cão modelo para aula de tosa bebe.
+          </p>
           <a href="https://wa.me/5511984278119" target="_blank">inscreva-se</a>
         </div>
       </div>
@@ -98,6 +100,7 @@ section {
     border-radius: 20px;
     padding: 30px;
     grid-template-rows: 0.5fr 0.5fr 3fr 0.5fr;
+    filter: drop-shadow(0px 10px 17px rgba(0, 0, 0, 0.25));
     h2 {
       font-family: 'Fraunces';
       font-weight: 700;
