@@ -21,7 +21,9 @@
           O Seu Pet é o nosso Pet - esse é um princípio de conduta que orienta
           nosso trabalho e nos dá satisfação ao garantir que os Pets a nós
           confiados são tratados com carinho, atenção, respeito, segurança e
-          conforto.
+          conforto. <br />
+          <br />
+          Diárias a partir de R$120,00
         </p>
       </div>
     </div>

@@ -6,7 +6,10 @@
         <p class="mb-10 lg:mb-14">
           Banho e tosa realizados com muito carinho, cuidado e amor por ótimos
           profissionais, com formação, experiência e capacitados para realização
-          dos serviços com segurança e excelência.
+          dos serviços com segurança e excelência. <br />
+          <br />
+          Banhos a partir de R$50,00 <br />
+          Pacotes mensais a partir de R$180,00
         </p>
 
         <div class="tratamentos grid grid-cols-2 gap-14">

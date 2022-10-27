@@ -7,7 +7,10 @@
           As atividades são dirigidas para a socialização com outros Pets,
           liberdade para brincar e correr, saúde mental, alimentação e cuidados,
           conforme estão acostumados em casa, sempre respeitando a
-          individualidade e natureza de cada um. Visite-nos !
+          individualidade e natureza de cada um. Visite-nos ! <br />
+          <br />
+          A partir de R$40,00 / dia <br />
+          Valores especiais para pacotes.
         </p>
       </div>
 

@@ -4,8 +4,13 @@
       <div>
         <h1>contato</h1>
         <p>R. Cel. Agenor de Camargo, 57 - Centro, Santo André</p>
-        <p>(11) 4427-8776</p>
-        <p>(11) 9 8128-7333</p>
+        <div class="block sm:flex">
+          <p class="mr-3">Whatsapp: (11) 9 8128-7333</p>
+          <p>tel: (11) 4427-8776</p>
+        </div>
+        <p>Seg a Sex - 09:00 às 17:30</p>
+        <p>Sábado - 09:00 às 17:00</p>
+        <p>Domingo - FECHADO</p>
       </div>
 
       <div>
