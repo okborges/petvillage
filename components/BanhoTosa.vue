@@ -40,7 +40,18 @@
       </div>
 
       <div class="verde pt-16 grid justify-center">
-        <img class="" src="~/assets/img/banho.png" alt="" />
+        <div class="flic">
+          <Flicking
+            :options="{
+              circular: true,
+            }"
+            :plugins="plugins"
+          >
+            <img src="~/assets/img/banho.png" alt="" />
+            <img src="~/assets/img/banho.jpg" alt="" />
+            <img src="~/assets/img/banho2.jpg" alt="" />
+          </Flicking>
+        </div>
         <p class="text-center py-10 px-2">
           Utilizamos produtos de primeira linha, evitando irritação à pele,
           cuidado especial à pelagem, proporcionando um resultado de qualidade e
@@ -57,11 +68,35 @@
 </template>
 
 <script>
-export default {};
+import { Flicking } from '@egjs/vue-flicking';
+import { AutoPlay } from '@egjs/flicking-plugins';
+export default {
+  components: {
+    Flicking,
+  },
+  data: () => {
+    return {
+      plugins: [
+        new AutoPlay({ duration: 5000, direction: 'NEXT', stopOnHover: false }),
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 section {
+  .flic {
+    max-width: 534px;
+    max-height: 334px;
+    img {
+      width: 534px;
+      height: 334px;
+      object-fit: cover;
+      border-radius: 8px;
+      object-position: top;
+    }
+  }
   .verde {
     background-color: #ff457e;
     button {

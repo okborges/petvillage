@@ -2,7 +2,18 @@
   <section id="derma">
     <div class="container mx-auto px-6 grid lg:grid-cols-2">
       <div class="verde pt-16 grid justify-center">
-        <img src="~/assets/img/derma.png" alt="" />
+        <div class="flic">
+          <Flicking
+            :options="{
+              circular: true,
+            }"
+            :plugins="plugins"
+          >
+            <img src="~/assets/img/derma.png" alt="" />
+            <img src="~/assets/img/vet.jpg" alt="" />
+            <img src="~/assets/img/vet2.jpg" alt="" />
+          </Flicking>
+        </div>
         <button class="justify-self-center mb-6">
           <a href="https://wa.me/5511981287333" target="_blank"
             >Marcar consulta</a
@@ -49,11 +60,35 @@
 </template>
 
 <script>
-export default {};
+import { Flicking } from '@egjs/vue-flicking';
+import { AutoPlay } from '@egjs/flicking-plugins';
+export default {
+  components: {
+    Flicking,
+  },
+  data: () => {
+    return {
+      plugins: [
+        new AutoPlay({ duration: 5000, direction: 'NEXT', stopOnHover: false }),
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 section {
+  .flic {
+    max-width: 534px;
+    max-height: 334px;
+    img {
+      width: 534px;
+      height: 334px;
+      object-fit: cover;
+      border-radius: 8px;
+      object-position: top;
+    }
+  }
   .verde {
     background-color: #73c1b1;
     button {

@@ -15,7 +15,17 @@
       </div>
 
       <div class="verde pt-16 grid justify-center">
-        <img class="" src="~/assets/img/creche.png" alt="" />
+        <div class="flic">
+          <Flicking
+            :options="{
+              circular: true,
+            }"
+            :plugins="plugins"
+          >
+            <img src="~/assets/img/creche.jpg" alt="" />
+            <img src="~/assets/img/creche.png" alt="" />
+          </Flicking>
+        </div>
         <p class="text-center py-10 px-2">
           Contamos com um espaço amplo e arejado, com instalações ao ar livre e
           áreas cobertas, localização privilegiada, segurança, higiene e limpeza
@@ -32,11 +42,34 @@
 </template>
 
 <script>
-export default {};
+import { Flicking } from '@egjs/vue-flicking';
+import { AutoPlay } from '@egjs/flicking-plugins';
+export default {
+  components: {
+    Flicking,
+  },
+  data: () => {
+    return {
+      plugins: [
+        new AutoPlay({ duration: 5000, direction: 'NEXT', stopOnHover: false }),
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 section {
+  .flic {
+    max-width: 534px;
+    max-height: 334px;
+    img {
+      width: 534px;
+      height: 334px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
   .verde {
     background-color: #ffa370;
     button {

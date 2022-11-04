@@ -2,13 +2,31 @@
   <section class="pb-10 lg:pb-0">
     <div class="container mx-auto grid lg:grid-cols-2 items-center">
       <div class="flex flex-col items-center">
-        <img
-          class="mb-20 rounded-lg"
-          src="~/assets/img/logo_novo.png"
-          alt="logotipo"
-          width="460"
-          height="306"
-        />
+        <div class="flic">
+          <Flicking
+            :options="{
+              circular: true,
+            }"
+            :plugins="plugins"
+          >
+            <img
+              class="rounded-lg"
+              src="~/assets/img/logo_novo.png"
+              alt="logotipo"
+            />
+            <img
+              class="rounded-lg"
+              src="~/assets/img/faixada.jpg"
+              alt="logotipo"
+            />
+            <img
+              class="rounded-lg"
+              src="~/assets/img/faixada_2.jpg"
+              alt="logotipo"
+            />
+          </Flicking>
+        </div>
+
         <button class="text-white text-2xl font-semibold">
           <a href="https://wa.me/5511981287333" target="_blank"
             >ENTRAR EM CONTATO</a
@@ -51,12 +69,34 @@
 </template>
 
 <script>
-export default {};
+import { Flicking } from '@egjs/vue-flicking';
+import { AutoPlay } from '@egjs/flicking-plugins';
+export default {
+  components: {
+    Flicking,
+  },
+  data: () => {
+    return {
+      plugins: [
+        new AutoPlay({ duration: 5000, direction: 'NEXT', stopOnHover: false }),
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 section {
   background-color: #3dbeff;
+
+  .flic {
+    max-width: 460px;
+    margin-bottom: 20px;
+    img {
+      width: 460px;
+      height: 400px;
+    }
+  }
 
   p {
     font-size: 1.5rem;

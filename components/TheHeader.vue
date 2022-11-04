@@ -1,7 +1,7 @@
 <template>
   <header class="text-white py-3">
     <nav class="container mx-auto items-center justify-between gap-5 lg:flex">
-      <img src="~/assets/Pet Village.svg" alt="logo" />
+      <img src="~/assets/icons/Pet Village.svg" alt="logo" />
       <ul
         class="flex text-xl font-semibold items-center text-center gap-4 lg:gap-10"
       >
