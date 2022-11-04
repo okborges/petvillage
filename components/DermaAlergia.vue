@@ -12,6 +12,9 @@
             <img src="~/assets/img/derma.png" alt="" />
             <img src="~/assets/img/vet.jpg" alt="" />
             <img src="~/assets/img/vet2.jpg" alt="" />
+            <img src="~/assets/img/vet3.jpg" alt="" />
+            <img src="~/assets/img/vet4.jpg" alt="" />
+            <img src="~/assets/img/vet5.jpg" alt="" />
           </Flicking>
         </div>
         <button class="justify-self-center mb-6">

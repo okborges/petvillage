@@ -10,6 +10,21 @@
         Incluso no curso Apostila e Certificado <br />
         Fornecemos estágio 😍🐾✨
       </p>
+      <div class="flic mx-auto mb-3">
+        <Flicking
+          :options="{
+            circular: true,
+          }"
+          :plugins="plugins"
+        >
+          <img src="~/assets/img/cursos.jpg" alt="" />
+          <img src="~/assets/img/cursos2.jpg" alt="" />
+          <img src="~/assets/img/cursos3.webp" alt="" />
+          <img src="~/assets/img/curso4.webp" alt="" />
+          <img src="~/assets/img/curso5.jpg" alt="" />
+          <img src="~/assets/img/curso6.webp" alt="" />
+        </Flicking>
+      </div>
       <div class="grid gap-10 lg:grid-cols-4">
         <div class="cards cor-1 grid justify-center">
           <h2>Módulo 1 - Banho</h2>
@@ -98,11 +113,34 @@
 </template>
 
 <script>
-export default {};
+import { Flicking } from '@egjs/vue-flicking';
+import { AutoPlay } from '@egjs/flicking-plugins';
+export default {
+  components: {
+    Flicking,
+  },
+  data: () => {
+    return {
+      plugins: [
+        new AutoPlay({ duration: 5000, direction: 'NEXT', stopOnHover: false }),
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 section {
+  .flic {
+    max-width: 534px;
+    max-height: 334px;
+    img {
+      width: 534px;
+      height: 334px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
   h1 {
     font-family: 'Fraunces';
     font-weight: 700;

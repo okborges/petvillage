@@ -50,6 +50,8 @@
             <img src="~/assets/img/banho.png" alt="" />
             <img src="~/assets/img/banho.jpg" alt="" />
             <img src="~/assets/img/banho2.jpg" alt="" />
+            <img src="~/assets/img/banho3.webp" alt="" />
+            <img src="~/assets/img/banho4.jpg" alt="" />
           </Flicking>
         </div>
         <p class="text-center py-10 px-2">
