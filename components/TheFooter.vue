@@ -1,6 +1,6 @@
 <template>
   <footer class="p-4">
-    <div class="container mx-auto px-6 grid lg:grid-cols-2 items-center">
+    <div class="container mx-auto px-6 grid lg:grid-cols-3 items-center">
       <div>
         <h1>contato</h1>
         <p>R. Cel. Agenor de Camargo, 57 - Centro, Santo André</p>
@@ -27,6 +27,17 @@
           </a>
         </div>
       </div>
+
+      <iframe
+        class="mt-3"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7308.761102809774!2d-46.529490574640306!3d-23.662345229542996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x120da4947b31fdd!2sPet%20Village%20Dermatologia%20e%20Alergologia%20Veterin%C3%A1ria!5e0!3m2!1spt-BR!2sbr!4v1667577561968!5m2!1spt-BR!2sbr"
+        width="310"
+        height="200"
+        style="border-radius: 8px"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
   </footer>
 </template>
