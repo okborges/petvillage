@@ -22,11 +22,10 @@
             }"
             :plugins="plugins"
           >
-            <img src="~/assets/img/creche.jpg" alt="" />
-            <img src="~/assets/img/creche.png" alt="" />
-            <img src="~/assets/img/creche1.jpg" alt="" />
-            <img src="~/assets/img/creche2.jpg" alt="" />
-            <img src="~/assets/img/creche3.jpg" alt="" />
+            <img src="~/assets/img/creche.webp" alt="" />
+            <img src="~/assets/img/creche4.webp" alt="" />
+            <img src="~/assets/img/creche1.webp" alt="" />
+            <img src="~/assets/img/creche3.webp" alt="" />
           </Flicking>
         </div>
         <p class="text-center py-10 px-2">

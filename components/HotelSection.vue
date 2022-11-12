@@ -2,7 +2,7 @@
   <section id="hotel">
     <div class="container mx-auto px-6 grid lg:grid-cols-2 items-center">
       <div class="verde pt-16 grid justify-center">
-        <img class="" src="~/assets/img/hotel.png" alt="" />
+        <img class="" src="~/assets/img/hotel.webp" alt="" />
         <p class="text-center justify-self-center py-10 px-2">
           Nossa experiência de mais de 12 anos, com monitores orientados a
           tratar nossos clientes como parte da família, garantem tratamento

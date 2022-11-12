@@ -11,17 +11,17 @@
           >
             <img
               class="rounded-lg"
-              src="~/assets/img/logo_novo.png"
+              src="~/assets/img/logo_novo.webp"
               alt="logotipo"
             />
             <img
               class="rounded-lg"
-              src="~/assets/img/faixada.jpg"
+              src="~/assets/img/faixada.webp"
               alt="logotipo"
             />
             <img
               class="rounded-lg"
-              src="~/assets/img/faixada_2.jpg"
+              src="~/assets/img/faixada_2.webp"
               alt="logotipo"
             />
           </Flicking>
@@ -35,7 +35,7 @@
       </div>
 
       <div>
-        <img src="~/assets/img/2main.png" alt="" />
+        <img src="~/assets/img/2main.webp" alt="" />
       </div>
     </div>
 

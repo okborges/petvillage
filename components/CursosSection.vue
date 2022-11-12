@@ -17,12 +17,12 @@
           }"
           :plugins="plugins"
         >
-          <img src="~/assets/img/cursos.jpg" alt="" />
-          <img src="~/assets/img/cursos2.jpg" alt="" />
+          <img src="~/assets/img/cursos.webp" alt="" />
+          <img src="~/assets/img/cursos2.webp" alt="" />
           <img src="~/assets/img/cursos3.webp" alt="" />
-          <img src="~/assets/img/curso4.webp" alt="" />
-          <img src="~/assets/img/curso5.jpg" alt="" />
-          <img src="~/assets/img/curso6.webp" alt="" />
+          <img src="~/assets/img/cursos4.webp" alt="" />
+          <img src="~/assets/img/cursos5.webp" alt="" />
+          <img src="~/assets/img/cursos6.webp" alt="" />
         </Flicking>
       </div>
       <div class="grid gap-10 lg:grid-cols-4">

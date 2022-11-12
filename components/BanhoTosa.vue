@@ -47,11 +47,11 @@
             }"
             :plugins="plugins"
           >
-            <img src="~/assets/img/banho.png" alt="" />
-            <img src="~/assets/img/banho.jpg" alt="" />
-            <img src="~/assets/img/banho2.jpg" alt="" />
+            <img src="~/assets/img/banho.webp" alt="" />
+            <img src="~/assets/img/banho1.webp" alt="" />
+            <img src="~/assets/img/banho2.webp" alt="" />
             <img src="~/assets/img/banho3.webp" alt="" />
-            <img src="~/assets/img/banho4.jpg" alt="" />
+            <img src="~/assets/img/banho4.webp" alt="" />
           </Flicking>
         </div>
         <p class="text-center py-10 px-2">

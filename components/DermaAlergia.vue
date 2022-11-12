@@ -9,12 +9,11 @@
             }"
             :plugins="plugins"
           >
-            <img src="~/assets/img/derma.png" alt="" />
-            <img src="~/assets/img/vet.jpg" alt="" />
-            <img src="~/assets/img/vet2.jpg" alt="" />
-            <img src="~/assets/img/vet3.jpg" alt="" />
-            <img src="~/assets/img/vet4.jpg" alt="" />
-            <img src="~/assets/img/vet5.jpg" alt="" />
+            <img src="~/assets/img/derma.webp" alt="" />
+            <img src="~/assets/img/vet2.webp" alt="" />
+            <img src="~/assets/img/vet3.webp" alt="" />
+            <img src="~/assets/img/vet4.webp" alt="" />
+            <img src="~/assets/img/vet5.webp" alt="" />
           </Flicking>
         </div>
         <button class="justify-self-center mb-6">
