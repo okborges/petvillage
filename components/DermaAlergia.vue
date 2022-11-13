@@ -9,11 +9,11 @@
             }"
             :plugins="plugins"
           >
-            <img src="~/assets/img/derma.webp" alt="" />
-            <img src="~/assets/img/vet2.webp" alt="" />
-            <img src="~/assets/img/vet3.webp" alt="" />
-            <img src="~/assets/img/vet4.webp" alt="" />
-            <img src="~/assets/img/vet5.webp" alt="" />
+            <img src="~/assets/img/derma.webp" alt="foto dermatologista 1" />
+            <img src="~/assets/img/vet2.webp" alt="foto dermatologista 2" />
+            <img src="~/assets/img/vet3.webp" alt="foto dermatologista 3" />
+            <img src="~/assets/img/vet4.webp" alt="foto dermatologista 4" />
+            <img src="~/assets/img/vet5.webp" alt="foto dermatologista 5" />
           </Flicking>
         </div>
         <button class="justify-self-center mb-6">
@@ -37,7 +37,13 @@
 
         <div class="tratamentos grid lg:grid-cols-2 gap-8 lg:gap-14">
           <div>
-            <img class="mb-2" src="~/assets/icons/cruz-medica.svg" alt="" />
+            <img
+              class="mb-2"
+              src="~/assets/icons/cruz-medica.svg"
+              alt="cruz medica"
+              width="29"
+              height="29"
+            />
             <h2 class="mb-3">Realizamos exames complementares</h2>
             <ul>
               <li>Citologia e raspado de pele</li>
@@ -48,7 +54,13 @@
           </div>
 
           <div>
-            <img class="mb-2" src="~/assets/icons/pills.svg" alt="" />
+            <img
+              class="mb-2"
+              src="~/assets/icons/pills.svg"
+              alt="pilulas"
+              width="30"
+              height="30"
+            />
             <h2 class="mb-3">Testes alérgicos</h2>
             <ul>
               <li>Prick test para alérgenos ambientais e alimentares</li>
@@ -81,20 +93,20 @@ export default {
 <style lang="scss" scoped>
 section {
   .flic {
-    max-width: 534px;
-    max-height: 334px;
+    max-width: 33.375rem;
+    max-height: 20.875rem;
     img {
-      width: 534px;
-      height: 334px;
+      width: 33.375rem;
+      height: 20.875rem;
       object-fit: cover;
-      border-radius: 8px;
+      border-radius: 0.5rem;
       object-position: top;
     }
   }
   .verde {
     background-color: #73c1b1;
     button {
-      padding: 14px 24px;
+      padding: 0.875rem 1.5rem;
       background: #142721;
       border: 0.25rem solid #142721;
       box-shadow: 0.1875rem 0.25rem 0.6875rem rgba(0, 0, 0, 0.4);
@@ -113,19 +125,19 @@ section {
   }
 
   .direita {
-    max-width: 530px;
+    max-width: 33.125rem;
     h1 {
       font-family: 'Fraunces';
       font-weight: 700;
-      font-size: 36px;
-      line-height: 54px;
+      font-size: 2.25rem;
+      line-height: 3.375rem;
       color: #0f1a16;
     }
     p {
       font-family: 'Barlow';
       font-weight: 500;
-      font-size: 18px;
-      line-height: 27px;
+      font-size: 1.125rem;
+      line-height: 1.6875rem;
       color: #1f332c;
     }
 
@@ -133,8 +145,8 @@ section {
       h2 {
         font-family: 'Fraunces';
         font-weight: 700;
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
         color: #0f1a16;
       }
       ul {
@@ -142,8 +154,8 @@ section {
         li {
           font-family: 'Barlow';
           font-weight: 500;
-          font-size: 14px;
-          line-height: 21px;
+          font-size: 0.875rem;
+          line-height: 1.3125rem;
           color: #1f332c;
         }
       }

@@ -35,33 +35,53 @@
       </div>
 
       <div>
-        <img src="~/assets/img/2main.webp" alt="" />
+        <img
+          src="~/assets/img/2main.webp"
+          alt="foto capa"
+          width="765"
+          height="641"
+        />
       </div>
     </div>
 
     <div class="nav-cards container mx-auto gap-10">
       <NuxtLink to="#derma" class="cards cor-1">
-        <img src="~/assets/icons/derma.svg" alt="" />
+        <img src="~/assets/icons/derma.svg" alt="dermatologista" />
         <p>Dermatologia e Alergologia</p>
       </NuxtLink>
 
       <NuxtLink to="/#banho" class="cards cor-2">
-        <img src="~/assets/icons/banho.svg" alt="" />
+        <img
+          src="~/assets/icons/banho.svg"
+          alt="banho e tosa"
+          width="50"
+          height="55"
+        />
         <p>Banho e Tosa</p>
       </NuxtLink>
 
       <NuxtLink to="/#hotel" class="cards cor-3">
-        <img src="~/assets/icons/hotel.svg" alt="" />
+        <img
+          src="~/assets/icons/hotel.svg"
+          alt="hotel"
+          width="53"
+          height="55"
+        />
         <p>Hotel</p>
       </NuxtLink>
 
       <NuxtLink to="/#creche" class="cards cor-4">
-        <img src="~/assets/icons/creche.svg" alt="" />
+        <img
+          src="~/assets/icons/creche.svg"
+          alt="creche"
+          width="52"
+          height="57"
+        />
         <p>Creche</p>
       </NuxtLink>
 
       <NuxtLink to="/#cursos" class="cards cor-5">
-        <img src="~/assets/icons/cursos.svg" alt="" />
+        <img src="~/assets/icons/cursos.svg" alt="cursos" />
         <p>Cursos</p>
       </NuxtLink>
     </div>
@@ -90,11 +110,11 @@ section {
   background-color: #3dbeff;
 
   .flic {
-    max-width: 460px;
-    margin-bottom: 20px;
+    max-width: 28.75rem;
+    margin-bottom: 1.25rem;
     img {
-      width: 460px;
-      height: 400px;
+      width: 28.75rem;
+      height: 25rem;
     }
   }
 
@@ -104,15 +124,15 @@ section {
   }
 
   button {
-    padding: 20px 30px;
+    padding: 1.25rem 1.875rem;
     background: #ff457e;
-    box-shadow: 4px 6px 10px rgba(7, 21, 28, 0.2);
-    border-radius: 37.3333px;
-    border: 3px solid #ff457e;
+    box-shadow: 0.25rem 0.375rem 0.625rem rgba(7, 21, 28, 0.2);
+    border-radius: 2.3333rem;
+    border: 0.1875rem solid #ff457e;
     transition: 0.3s;
   }
   button:hover {
-    border: 3px solid #cc3765;
+    border: 0.1875rem solid #cc3765;
     transform: scale(1.02);
   }
 
@@ -131,8 +151,8 @@ section {
     background: #fff;
     padding: 0.9375rem;
     max-width: 12.4375rem;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    box-shadow: 0rem 0.375rem 0.625rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
     cursor: pointer;
     transition: 0.3s;
 
@@ -144,57 +164,57 @@ section {
   .cor-1 {
     color: #142721;
     background-color: #89e5d2;
-    border: 3px solid #89e5d2;
+    border: 0.1875rem solid #89e5d2;
     transition: 0.3s;
   }
   .cor-2 {
     color: #40111f;
     background-color: #ff457e;
-    border: 3px solid #ff457e;
+    border: 0.1875rem solid #ff457e;
     transition: 0.3s;
   }
   .cor-3 {
     color: #352d00;
     background-color: #fed501;
-    border: 3px solid #fed501;
+    border: 0.1875rem solid #fed501;
     transition: 0.3s;
   }
   .cor-4 {
     color: #3d271b;
     background-color: #ffa370;
-    border: 3px solid #ffa370;
+    border: 0.1875rem solid #ffa370;
     transition: 0.3s;
   }
   .cor-5 {
     color: #1b1526;
     background-color: #b38fff;
-    border: 3px solid #b38fff;
+    border: 0.1875rem solid #b38fff;
     transition: 0.3s;
   }
 
   .cor-1:hover {
-    border: 3px solid #142721;
+    border: 0.1875rem solid #142721;
     transform: scale(1.02);
   }
   .cor-2:hover {
-    border: 3px solid #40111f;
+    border: 0.1875rem solid #40111f;
     transform: scale(1.02);
   }
   .cor-3:hover {
-    border: 3px solid #352d00;
+    border: 0.1875rem solid #352d00;
     transform: scale(1.02);
   }
   .cor-4:hover {
-    border: 3px solid #3d271b;
+    border: 0.1875rem solid #3d271b;
     transform: scale(1.02);
   }
   .cor-5:hover {
-    border: 3px solid #1b1526;
+    border: 0.1875rem solid #1b1526;
     transform: scale(1.02);
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 64rem) {
   section {
     .nav-cards {
       grid-template-columns: 1fr;

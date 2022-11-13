@@ -14,7 +14,13 @@
 
         <div class="tratamentos grid grid-cols-2 gap-14">
           <div>
-            <img class="mb-2" src="~/assets/icons/shampoo.svg" alt="" />
+            <img
+              class="mb-2"
+              src="~/assets/icons/shampoo.svg"
+              alt="shamppo"
+              width="32"
+              height="32"
+            />
             <h2 class="mb-3">Banho</h2>
             <ul>
               <li>Banho</li>
@@ -26,7 +32,13 @@
           </div>
 
           <div>
-            <img class="mb-2" src="~/assets/icons/scissors.svg" alt="" />
+            <img
+              class="mb-2"
+              src="~/assets/icons/scissors.svg"
+              alt="tesoura"
+              width="32"
+              height="32"
+            />
             <h2 class="mb-3">Tosa</h2>
             <ul>
               <li>Máquina</li>
@@ -47,11 +59,11 @@
             }"
             :plugins="plugins"
           >
-            <img src="~/assets/img/banho.webp" alt="" />
-            <img src="~/assets/img/banho1.webp" alt="" />
-            <img src="~/assets/img/banho2.webp" alt="" />
-            <img src="~/assets/img/banho3.webp" alt="" />
-            <img src="~/assets/img/banho4.webp" alt="" />
+            <img src="~/assets/img/banho.webp" alt="foto cachorro 1" />
+            <img src="~/assets/img/banho1.webp" alt="foto cachorro 2" />
+            <img src="~/assets/img/banho2.webp" alt="foto cachorro 3" />
+            <img src="~/assets/img/banho3.webp" alt="foto cachorro 4" />
+            <img src="~/assets/img/banho4.webp" alt="foto cachorro 5" />
           </Flicking>
         </div>
         <p class="text-center py-10 px-2">
@@ -89,20 +101,20 @@ export default {
 <style lang="scss" scoped>
 section {
   .flic {
-    max-width: 534px;
-    max-height: 334px;
+    max-width: 33.375rem;
+    max-height: 20.875rem;
     img {
-      width: 534px;
-      height: 334px;
+      width: 33.375rem;
+      height: 20.875rem;
       object-fit: cover;
-      border-radius: 8px;
+      border-radius: 0.5rem;
       object-position: top;
     }
   }
   .verde {
     background-color: #ff457e;
     button {
-      padding: 14px 24px;
+      padding: 0.875rem 1.5rem;
       background: #40111f;
       border: 0.25rem solid #40111f;
       box-shadow: 0.1875rem 0.25rem 0.6875rem rgba(0, 0, 0, 0.4);
@@ -121,38 +133,38 @@ section {
     p {
       font-family: 'Barlow';
       font-weight: 600;
-      font-size: 20px;
-      line-height: 30px;
-      color: #ffffff;
-      max-width: 430px;
+      font-size: 1.25rem;
+      line-height: 1.875rem;
+      color: #40111f;
+      max-width: 26.875rem;
       justify-self: center;
     }
   }
 
   .direita {
-    max-width: 530px;
+    max-width: 33.125rem;
     h1 {
       font-family: 'Fraunces';
       font-weight: 700;
-      font-size: 36px;
-      line-height: 54px;
+      font-size: 2.25rem;
+      line-height: 3.375rem;
       color: #40111f;
     }
     p {
       font-family: 'Barlow';
       font-weight: 500;
-      font-size: 20px;
-      line-height: 27px;
+      font-size: 1.25rem;
+      line-height: 1.6875rem;
       color: #80233f;
-      max-width: 410px;
+      max-width: 25.625rem;
     }
 
     .tratamentos {
       h2 {
         font-family: 'Fraunces';
         font-weight: 700;
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
         color: #40111f;
       }
       ul {
@@ -160,8 +172,8 @@ section {
         li {
           font-family: 'Barlow';
           font-weight: 500;
-          font-size: 14px;
-          line-height: 21px;
+          font-size: 0.875rem;
+          line-height: 1.3125rem;
           color: #80233f;
         }
       }

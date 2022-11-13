@@ -1,7 +1,12 @@
 <template>
   <header class="text-white py-3">
     <nav class="container mx-auto items-center justify-between gap-5 lg:flex">
-      <img src="~/assets/icons/Pet Village.svg" alt="logo" />
+      <img
+        src="~/assets/icons/Pet Village.svg"
+        alt="logo"
+        width="255"
+        height="65"
+      />
       <ul
         class="flex text-xl font-semibold items-center text-center gap-4 lg:gap-10"
       >
@@ -24,23 +29,26 @@ header {
   background: #ff457e;
 
   li {
-    padding: 6px 20px;
+    padding: 0.375rem 1.25rem;
     cursor: pointer;
+    a {
+      color: #57001b;
+    }
   }
 
   li:hover {
     background-color: #ff749e;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     transition: 0.5s;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 64rem) {
   header {
     img {
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 10px;
+      margin-bottom: 0.625rem;
     }
 
     ul {
@@ -48,10 +56,10 @@ header {
       justify-content: center;
 
       li {
-        padding: 4px 10px;
+        padding: 0.25rem 0.625rem;
         background-color: #ff749e;
-        border-radius: 4px;
-        font-size: 16px;
+        border-radius: 0.25rem;
+        font-size: 1rem;
       }
     }
   }

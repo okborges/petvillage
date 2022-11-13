@@ -2,7 +2,13 @@
   <section id="hotel">
     <div class="container mx-auto px-6 grid lg:grid-cols-2 items-center">
       <div class="verde pt-16 grid justify-center">
-        <img class="" src="~/assets/img/hotel.webp" alt="" />
+        <img
+          class=""
+          src="~/assets/img/hotel.webp"
+          alt="Logo hotel"
+          width="534"
+          height="334"
+        />
         <p class="text-center justify-self-center py-10 px-2">
           Nossa experiência de mais de 12 anos, com monitores orientados a
           tratar nossos clientes como parte da família, garantem tratamento
@@ -39,7 +45,7 @@ section {
   .verde {
     background-color: #fed501;
     button {
-      padding: 14px 24px;
+      padding: 0.875rem 1.5rem;
       background: #2e2704;
       border: 0.25rem solid #2e2704;
       box-shadow: 0.1875rem 0.25rem 0.6875rem rgba(0, 0, 0, 0.4);
@@ -59,31 +65,31 @@ section {
       justify-self: center;
     }
     p {
-      max-width: 430px;
+      max-width: 26.875rem;
       font-family: 'Barlow';
 
       font-weight: 600;
-      font-size: 20px;
-      line-height: 30px;
+      font-size: 1.25rem;
+      line-height: 1.875rem;
       text-align: center;
       color: #2d2602;
     }
   }
 
   .direita {
-    max-width: 530px;
+    max-width: 33.125rem;
     h1 {
       font-family: 'Fraunces';
       font-weight: 700;
-      font-size: 36px;
-      line-height: 54px;
+      font-size: 2.25rem;
+      line-height: 3.375rem;
       color: #2d2602;
     }
     p {
       font-family: 'Barlow';
       font-weight: 500;
-      font-size: 18px;
-      line-height: 27px;
+      font-size: 1.125rem;
+      line-height: 1.6875rem;
       color: #2e2704;
     }
   }

@@ -17,12 +17,12 @@
           }"
           :plugins="plugins"
         >
-          <img src="~/assets/img/cursos.webp" alt="" />
-          <img src="~/assets/img/cursos2.webp" alt="" />
-          <img src="~/assets/img/cursos3.webp" alt="" />
-          <img src="~/assets/img/cursos4.webp" alt="" />
-          <img src="~/assets/img/cursos5.webp" alt="" />
-          <img src="~/assets/img/cursos6.webp" alt="" />
+          <img src="~/assets/img/cursos.webp" alt="Fotos curso 1" />
+          <img src="~/assets/img/cursos2.webp" alt="Fotos curso 2" />
+          <img src="~/assets/img/cursos3.webp" alt="Fotos curso 3" />
+          <img src="~/assets/img/cursos4.webp" alt="Fotos curso 4" />
+          <img src="~/assets/img/cursos5.webp" alt="Fotos curso 5" />
+          <img src="~/assets/img/cursos6.webp" alt="Fotos curso 6" />
         </Flicking>
       </div>
       <div class="grid gap-10 lg:grid-cols-4">
@@ -52,11 +52,11 @@
             <li>Tosa tesoura ( polimento)</li>
             <li>Tosa bebe</li>
             <li>5 aulas 🐾</li>
-            <p>
-              *Necessario trazer o cão modelo para aula de tosa bebe (Curso só
-              pode ser feito pra quem já é banhista).
-            </p>
           </ul>
+          <p>
+            *Necessario trazer o cão modelo para aula de tosa bebe (Curso só
+            pode ser feito pra quem já é banhista).
+          </p>
 
           <a href="https://wa.me/5511984278119" target="_blank">inscreva-se</a>
         </div>
@@ -64,8 +64,8 @@
         <div class="cards cor-3 grid justify-center">
           <h2>Modulo 3 - Banho e Tosa</h2>
           <h3>R$850,00</h3>
+          <h4 class="font-bold text-lg">Os dois módulos juntos :)</h4>
           <ul>
-            <h4 class="font-bold text-lg">Os dois módulos juntos :)</h4>
             <li>Banho passo a passo</li>
             <li>escovaçao de pelos e Dentes</li>
             <li>Hidratação / contenção</li>
@@ -85,8 +85,8 @@
         <div class="cards cor-4 grid justify-center">
           <h2>Módulo - 4 Banho e Tosa + especializaçao em tosa bebe</h2>
           <h3>R$1.300,00</h3>
+          <h4 class="font-bold text-lg">Os três módulos juntos ❤</h4>
           <ul>
-            <h4 class="font-bold text-lg">Os três módulos juntos ❤</h4>
             <li>Banho ( passo a passo)</li>
             <li>Escovação de pelos e Dentes</li>
             <li>Hidratação / contenção</li>
@@ -132,51 +132,53 @@ export default {
 <style lang="scss" scoped>
 section {
   .flic {
-    max-width: 534px;
-    max-height: 334px;
+    max-width: 33.375rem;
+    max-height: 20.875rem;
     img {
-      width: 534px;
-      height: 334px;
+      width: 33.375rem;
+      height: 20.875rem;
       object-fit: cover;
-      border-radius: 8px;
+      border-radius: 0.5rem;
     }
   }
   h1 {
     font-family: 'Fraunces';
     font-weight: 700;
-    font-size: 36px;
+    font-size: 2.25rem;
     text-align: center;
   }
 
   .cards {
-    border-radius: 20px;
-    padding: 30px;
-    grid-template-rows: 0.5fr 0.5fr 3fr 0.5fr;
-    filter: drop-shadow(0px 10px 17px rgba(0, 0, 0, 0.25));
+    height: fit-content;
+    padding: 1.875rem;
+    border-radius: 1.25rem;
+
+    filter: drop-shadow(0rem 0.625rem 1.0625rem rgba(0, 0, 0, 0.25));
     h2 {
       font-family: 'Fraunces';
       font-weight: 700;
-      font-size: 24px;
-      line-height: 30px;
-      padding-bottom: 20px;
+      font-size: 1.5rem;
+      line-height: 1.875rem;
+      padding-bottom: 1.25rem;
     }
     h3 {
       font-family: 'Fraunces';
       font-weight: 700;
-      font-size: 28px;
-      line-height: 35px;
-      padding-bottom: 30px;
+      font-size: 1.75rem;
+      line-height: 2.1875rem;
+      padding-bottom: 1.875rem;
       text-decoration: underline;
     }
     a {
       color: #ffffff;
-      box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
-      border-radius: 22px;
-      margin-bottom: 30px;
+      box-shadow: 0.0625rem 0.125rem 0.375rem rgba(0, 0, 0, 0.4);
+      border-radius: 1.375rem;
+      margin-top: 1.25rem;
+      margin-bottom: 1.25rem;
       font-family: 'Quicksand';
       font-weight: 700;
       height: fit-content;
-      padding: 10px;
+      padding: 0.625rem;
       text-align: center;
       transition: 0.2s;
     }
@@ -184,8 +186,8 @@ section {
     ul {
       font-family: 'Barlow';
       font-weight: 500;
-      font-size: 16px;
-      line-height: 26px;
+      font-size: 1rem;
+      line-height: 1.625rem;
       list-style: inside;
     }
   }

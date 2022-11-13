@@ -57,7 +57,7 @@ section {
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 1.6875rem;
-    max-width: 570px;
+    max-width: 35.625rem;
     font-family: 'Barlow', sans-serif;
     color: #424242;
   }
