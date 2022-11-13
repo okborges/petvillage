@@ -17,13 +17,28 @@
         <h1 class="pb-3">Mídias</h1>
         <div class="flex gap-5">
           <a href="https://www.facebook.com/Petvilage" target="_blank">
-            <img src="~/assets/icons/face.svg" alt="Facebook" />
+            <img
+              src="~/assets/icons/face.svg"
+              alt="Facebook"
+              width="33"
+              height="32"
+            />
           </a>
           <a href="https://www.instagram.com/_petvillage_/" target="_blank">
-            <img src="~/assets/icons/insta.svg" alt="Instagram" />
+            <img
+              src="~/assets/icons/insta.svg"
+              alt="Instagram"
+              width="34"
+              height="33"
+            />
           </a>
           <a href="https://wa.me/5511981287333" target="_blank">
-            <img src="~/assets/icons/zap.svg" alt="Whatsapp" />
+            <img
+              src="~/assets/icons/zap.svg"
+              alt="Whatsapp"
+              width="33"
+              height="32"
+            />
           </a>
         </div>
       </div>

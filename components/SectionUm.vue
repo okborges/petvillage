@@ -17,12 +17,12 @@
             <img
               class="rounded-lg"
               src="~/assets/img/faixada.webp"
-              alt="logotipo"
+              alt="faixada 1"
             />
             <img
               class="rounded-lg"
               src="~/assets/img/faixada_2.webp"
-              alt="logotipo"
+              alt="faixada 2"
             />
           </Flicking>
         </div>
@@ -110,12 +110,8 @@ section {
   background-color: #3dbeff;
 
   .flic {
-    max-width: 28.75rem;
-    margin-bottom: 1.25rem;
-    img {
-      width: 28.75rem;
-      height: 25rem;
-    }
+    max-width: 460px;
+    margin-bottom: 20px;
   }
 
   p {
