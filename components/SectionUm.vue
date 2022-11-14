@@ -13,16 +13,22 @@
               class="rounded-lg"
               src="~/assets/img/logo_novo.webp"
               alt="logotipo"
+              width="720"
+              height="800"
             />
             <img
               class="rounded-lg"
               src="~/assets/img/faixada.webp"
               alt="faixada 1"
+              width="720"
+              height="800"
             />
             <img
               class="rounded-lg"
               src="~/assets/img/faixada_2.webp"
               alt="faixada 2"
+              width="720"
+              height="800"
             />
           </Flicking>
         </div>
