@@ -1,67 +1,99 @@
 <template>
-  <header class="text-white py-3">
-    <nav class="container mx-auto items-center justify-between gap-5 lg:flex">
-      <img
-        src="~/assets/icons/Pet Village.svg"
-        alt="logo"
-        width="255"
-        height="65"
-      />
-      <ul
-        class="flex text-xl font-semibold items-center text-center gap-4 lg:gap-10"
-      >
-        <li><NuxtLink to="/#derma">Dermatologia e Alergologia</NuxtLink></li>
-        <li><NuxtLink to="/#banho">Banho e tosa</NuxtLink></li>
-        <li><NuxtLink to="/#hotel">Hotel</NuxtLink></li>
-        <li><NuxtLink to="/#creche">Creche</NuxtLink></li>
-        <li><NuxtLink to="/#cursos">Cursos</NuxtLink></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="container">
+        <div class="header_items_container">
+            <div class="header_item">
+                <img src="../assets/icons/phone.svg" />
+                <div>
+                    <p>Telefone</p>
+                    <span>whatsapp (11) 9 8128-7333</span>
+                </div>
+            </div>
+
+            <div class="header_item">
+                <img src="../assets/icons/maps.svg" />
+                <div>
+                    <p>R. Cel. Agenor de Camargo, 57</p>
+                    <span>Centro, Santo André</span>
+                </div>
+            </div>
+
+            <div class="header_item">
+                <img src="../assets/icons/calendar.svg" />
+                <div>
+                    <p>Segunda - Sábado</p>
+                    <span
+                        >09:00 - 17:30 com agendamento prévio pelo
+                        WhatsApp</span
+                    >
+                </div>
+            </div>
+        </div>
+
+        <div class="social">
+            <a
+                href="https://api.whatsapp.com/send/?phone=%2B5511981287333&text&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <img src="../assets/icons/whatsapp.svg" width="30" />
+            </a>
+            <a
+                href="https://www.instagram.com/petvillagedermato/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <img src="../assets/icons/instagram.svg" width="30" />
+            </a>
+            <a
+                href="https://www.facebook.com/profile.php?id=100063582402934"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <img src="../assets/icons/facebook.svg" width="30" />
+            </a>
+        </div>
+    </header>
 </template>
 
-<script>
-export default {};
-</script>
-
-<style lang="scss" scoped>
+<style scoped lang="scss">
 header {
-  background: #ff457e;
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+    .header_items_container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        .header_item {
+            display: grid;
+            grid-template-columns: max-content 1fr;
+            gap: 10px;
 
-  li {
-    padding: 0.375rem 1.25rem;
-    cursor: pointer;
-    a {
-      color: #57001b;
+            p {
+                font-size: 16px;
+                font-weight: 700;
+            }
+            span {
+                font-size: 12px;
+            }
+        }
     }
-  }
-
-  li:hover {
-    background-color: #ff749e;
-    border-radius: 1.875rem;
-    transition: 0.5s;
-  }
+    .social {
+        display: flex;
+        gap: 20px;
+    }
 }
 
-@media screen and (max-width: 64rem) {
-  header {
-    img {
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 0.625rem;
-    }
+@media (max-width: 1150px) {
+    header {
+        padding: 16px;
+        .header_items_container {
+            gap: 16px;
+        }
 
-    ul {
-      flex-wrap: wrap;
-      justify-content: center;
-
-      li {
-        padding: 0.25rem 0.625rem;
-        background-color: #ff749e;
-        border-radius: 0.25rem;
-        font-size: 1rem;
-      }
+        .social {
+            display: none;
+        }
     }
-  }
 }
 </style>
